@@ -10,7 +10,7 @@ const Navbar = () => {
   ];
   const [nav, setNav] = useState(false);
   return (
-    <div className="flex justify-between items-center h-20 w-full px-4 text-white bg-black fixed">
+    <div className="flex justify-between items-center h-20 w-full px-4 text-white bg-black">
       <div className="font-signature text-4xl px-4">Roshan</div>
       <ul className="hidden md:flex">
         {links.map((link) => (
